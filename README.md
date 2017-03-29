@@ -1,7 +1,9 @@
 # Embedded-Workaround
   Bash script for embedded C programming, that allows you to write code with your favorite IDE without the need of a plug-in!
   
-  This script can be used to write code in CLion IDE or Visual Studio Code IDE.
+  This script can be run from the integrated terminals within CLion IDE or Visual Studio Code IDE or any other IDE.
+  The script acts like a crawler that goes through all the directories that are in the project and then it builds the Release directory.
+  
   For step-by-step instructions follow these links:
   
 
@@ -10,10 +12,10 @@
    - avr-libc,
    - binutils-avr,
    - gcc-avr.
-  Complete command:
+Complete command:
    sudo apt-get install avrdude avr-libc binutils-avr gcc-avr  
 
-  This is a .sh file that will do the following:
+  The .sh will do the following:
    - compile c files in the project,
    - create the .map file,
    - create the .lst file,
