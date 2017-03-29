@@ -13,7 +13,9 @@
    - binutils-avr,
    - gcc-avr.
    
-  Complete command: sudo apt-get install avrdude avr-libc binutils-avr gcc-avr
+  Complete command: sudo apt-get install avrdude avr-libc binutils-avr gcc-avr                     
+  Direct download command of the script: curl -o HexEmbedd_V.sh https://raw.githubusercontent.com/kapucin28/HexEmbedd_V/master/HexEmbedd_V.sh                                                    
+  IMPORTANT! Download or copy the file in the project directory, not somewhere else!                            
   
   The .sh will do the following:
    - compile c files in the project,
