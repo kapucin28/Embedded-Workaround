@@ -1,3 +1,4 @@
+# Author: Remus Flavius TIMBULI
 # Builder for AVR embedded projects:
 
                 ############ RELEASE DIRECTORY CLEANUP ############
