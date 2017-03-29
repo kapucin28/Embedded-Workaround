@@ -8,7 +8,6 @@ rm -r Release/
 fi
 
 mkdir -m 755 Release &&
-cd Release &&
 
                 #################### VARIABLES ####################
                 
